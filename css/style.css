@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body{
+    background-color:grey;
+    font-weight: bold;
+    font-family: cursive;
+}
+img{
+    width: 20px;
+    height: 20px;
+}
+#myheader{
+    background-repeat: none;
+    height: 200px;
+    background-size: 100% 200%;
+    /* background-image: url("https://picsum.photos/2160/300/?blur"); */
+    /* background-image: url("https://picsum.photos/200/300?grayscale") ; */
+    background-image: url("file:///C:/Users/DevenPadhiyar/Desktop/Test/resources/demo.jpg");
+    border-radius: 10px 10px 0px 0px;
+}
+h1.header{
+    
+    color: yellow;
+    text-align: center;
+       
+}
+#navdiv{
+
+    margin: 20px;
+}
+ul{
+    padding-left: 0px; 
+    height: 30px;
+    
+}
+ul li{
+    float: left;
+    text-align: center;
+    background-color: gainsboro;
+    border-style: groove;
+    border-radius: 10px 0px;
+    padding: 10px 15px;
+    list-style: none;
+    margin-left: 10px;
+     
+}
+ul li:hover{
+    background-color: brown;
+}
+
+.borderdiv{
+    clear: both;
+    text-align: center;
+    background-color: gainsboro;
+    border-style: groove;
+    border-radius: 10% 0px ;
+    border-width: 10px;
+    padding: 10px 15px;
+    margin: 10px;
+}
+ol{
+    list-style: none;
+}
+/* .borderdiv,p{
+    margin-top: 20px;
+    clear: both;
+    font-size: large;
+} */
+#firstpara{
+    margin-top: 20px;
+    font-size: large;
+    font-style: inherit;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
+
+@media screen and (max-width:600px) {
+    body{
+        /* display: none; */
+        background-color: red;
+    }
+    
+}
+
+#formdiv{
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgb(184, 184, 184);
+}
+
+/* h2.header{
+    /* color: yellow; 
+    color: rgba(252, 212, 15, 0.822);
+    text-align: center;
+} */
+
+/* For the applying border styles */
