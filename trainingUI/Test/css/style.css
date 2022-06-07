@@ -1,0 +1,301 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); */
+body{
+    margin: 0;
+    /* background: linear-gradient(360deg,red,orange,pink,blue); */
+    background-color:grey;
+    font-weight: bold;
+    font-family: cursive;
+}
+img{
+    width: 20px;
+    height: 10px;
+}
+
+/* .borderdiv ul li{
+    list-style:url("../resources/down2.jfif");
+    size: 20px 10px;
+} */
+
+#myheader{
+    background-repeat: none;
+    height: 200px;
+    background-size: 100% 200%;
+    /* background-image: url("https://picsum.photos/2160/300/?blur"); */
+    /* background-image: url("https://picsum.photos/200/300?grayscale") ; */
+    background-image: url("file:///C:/Users/DevenPadhiyar/Desktop/Test/trainingUI/Test/resources/demo.jpg");
+    /* border-radius: 10px 10px 0px 0px; */
+}
+h1.header{
+    margin: 0;
+    padding-top: 70px;
+    color: rgba(16, 16, 16, 0.6);
+    text-align: center;     
+}
+#navdiv{
+    margin: 20px;
+}
+ul{
+    padding-left: 0px; 
+    height: 30px;
+    
+}
+ul li{
+    float: left;
+    text-align: center;
+    background-color: gainsboro;
+    border-style: groove;
+    border-radius: 10px 0px;
+    padding: 10px 15px;
+    list-style: none;
+    margin-left: 10px;
+     
+}
+ul li:hover{
+    background-color: grey;
+}
+
+.borderdiv{
+    clear: both;
+    text-align: center;
+    background-color: gainsboro;
+    border-style: groove;
+    border-radius: 10% 0px ;
+    border-width: 10px;
+    padding: 10px 15px;
+    margin: 10px;
+}
+ol{
+    list-style: none;
+}
+/* .borderdiv,p{
+    margin-top: 20px;
+    clear: both;
+    font-size: large;
+} */
+#firstpara{
+    margin-top: 20px;
+    font-size: large;
+    font-style: inherit;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
+
+@media screen and (max-width:600px) {
+    body{
+        /* display: none; */
+        background-color: red;
+    }
+    
+}
+/* h2.header{
+    /* color: yellow; 
+    color: rgba(252, 212, 15, 0.822);
+    text-align: center;
+} */
+
+/*----------------------------------For the about page-------------------------------------- */
+
+#aboutid{
+    margin-top: 0;
+    text-decoration:underline;
+    color: rgba(226, 251, 61, 0.897);
+    /* color:aquamarine; */
+    font-style: italic;
+    /* background-color: rgba(119, 220, 214, 0.6); */
+}
+#aboutbody{
+    text-align: center;
+    /* border-radius:0 0 99% 99%; */
+    /* background-color: rgba(119, 220, 214, 0.6); */
+    background: linear-gradient(0,yellow,red);
+}
+#aboutback{
+    padding:  10px 20px 10px 20px;
+    /* float: right; */
+    /* border: 5px; */
+    /* border-radius: 0px 0px 20px 20px; */
+    /* background-color: rgba(255, 235, 205, 0.8); */ 
+}
+
+/*------------------------------------------- For partners ---------------------------------------*/
+#partbody{
+    background: linear-gradient(25deg,purple,yellow,green);
+    /* background-color: aquamarine; */
+    /* border-radius: 10px; */
+    text-align: center;
+    color:aliceblue;
+}
+#partbody h1{
+    color:blueviolet;
+    /* text-decoration: underline; */
+    margin-top: 0;
+    padding-left: 110px;
+}
+/* #part1{
+    display: inline-block;
+    float: inline-start;
+    width: 30%;
+    height: 100px;
+    border: 5px;
+    border-bottom: 10px;
+    background-color:blanchedalmond;
+    border-radius: 10px;
+    margin: 10px;
+}
+#part2{
+    display: inline-block;
+    float: inline-end;
+    width: 30%;
+    height: 100px;
+    border: 5px;
+    border-bottom: 10px;
+    background-color:blanchedalmond;
+    border-radius: 10px;
+    margin: 10px;
+} */
+.partclass{
+    display: inline-block;
+    /* float: inline-start; */
+    width: 30%;
+    height: 100px;
+    border: 5px;
+    border-bottom: 10px;
+    background: url("https://media.istockphoto.com/photos/winter-scene-snowfall-on-the-blurred-background-picture-id863513024?k=20&m=863513024&s=612x612&w=0&h=UvyOW9Npb5SbDGIexFHRnxHGny3sui7LFmp0f7-kgKo=");
+    background-size: 100% 100%;
+    border-radius: 10px;
+    margin: 10px;
+}
+.partclass h2{
+    margin-bottom: 10px;
+}
+.partclass h2 a{
+    color:aliceblue;
+}
+#partback{
+    top: 0;
+    /* display: inline-block;
+    /* position: relative; */
+    float: right; 
+    margin: 10px;
+    padding: 0 10px 0 10px;
+    border-radius: 10px;
+    background-color: rgb(162, 255, 0);
+}
+
+/* ----------------------------------------For Formdata------------------------------------------ */
+
+#formbody{
+    background:linear-gradient(90deg,red,yellow,white,purple,blue)
+}
+#formdiv{
+    margin-left: 25%;
+    width: 50%;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgb(184, 184, 184);
+}
+input{
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+span input{
+    width:50%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+textarea{
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+select{
+    margin-bottom: 10px;
+}
+
+/* -------------------------------------------For Footer in Homepage----------------------------------- */
+#myftr{
+    height: 500px;
+    background-color:rgb(31, 30, 30);
+}
+.ftdiv{
+    float: left;;
+    margin: 50px;
+    width:10%;
+    height:65%;
+    text-align: left;
+    color: aliceblue;
+    /* background-color: burlywood; */
+    border-radius: 10px;
+}
+.ftdiv img{
+    width:30px;
+    height: 30px;
+}
+
+/*-------------------------------------------For Front About Us Hover IMG-------------------------------------- */
+.aboutusimg{
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+.aboutusimg img{
+    width: inherit;
+    height: inherit;  
+}
+.aboutusimg #txttransform{
+    margin-top: 11%;
+    padding-left: 10px;
+    position: absolute;
+    bottom:0;
+    top: 0;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.5);
+    transform: perspective(300px) rotateY(90deg);
+    transform-origin: left;
+    /* transform: perspective(300px) rotateX(90deg);
+    transform-origin: right; */
+    transition: all 0.9s;
+}
+.aboutusimg:hover #txttransform{
+    transform: perspective(300px) rotateY(0deg);
+    /* transform: perspective(500px) rotateX(0deg); */
+}
+
+/* -------------------------------------------------JS Files Styles--------------------------------------------- */
+
+/* JS Body */
+.jsbody{
+    background:linear-gradient(25deg,red,yellow,green) no-repeat;
+    height: 700px;
+}
+
+/* js hover */
+#jsid:hover{
+    cursor: pointer;
+}
+
+button{
+    width: 100%;
+    height: 40px;
+    /* padding: 0;
+    border: 0; */
+}
+
+#jsbox{
+    color:black;
+    line-height: 40px;
+    text-align: center;
+    margin: 1.5%;
+    width: 97%;
+    height: 300px;
+    background: url("https://media.istockphoto.com/photos/winter-scene-snowfall-on-the-blurred-background-picture-id863513024?k=20&m=863513024&s=612x612&w=0&h=UvyOW9Npb5SbDGIexFHRnxHGny3sui7LFmp0f7-kgKo=");
+    background-size: 100% 200%;
+    border-radius: 300px;
+}
+
+#jsbox h1{
+    padding-top: 100px;
+    /* background: linear-gradient(25deg,red,yellow,orange); */
+}

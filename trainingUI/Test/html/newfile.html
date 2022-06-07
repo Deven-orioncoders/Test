@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hello World</title>
+<style>
+    .btn {
+        padding: 10px;
+        border: 1px solid black;
+        display: inline-block;
+    }
+</style>
+</head>
+<body>
+<div id="btn1" class="btn"> Click Me</div>
+<div id="btn2" class="btn"> Click Me</div>
+<div id="header">nothing </div>
+<img src="https://picsum.photos/200/300" id="myImage" />
+<!-- <p id="tag"></p> -->
+<div id="output"></div>
+</body>
+
+<Script>
+    console.dir(document);
+    // var output = document.getElementById("btn1");
+    // console.dir(output);
+    // output.innerHTML="<b>New Button</b>";
+
+    var mybuttons = document.getElementsByClassName("btn");
+    console.dir(mybuttons[1]);
+
+    var mytag = document.getElementsByTagName("div");
+    console.dir(mytag[0]);
+
+    var mysel = document.querySelectorAll("div.btn");
+    console.dir(mysel[0]);
+
+    document.getElementById("header").innerHTML = document.title;
+
+    const myalltags = document.getElementsByTagName("*");
+    let text = "";
+    document.write("<br>");
+    for(let i=0; i < myalltags.length; i++)
+    {  
+        text += myalltags[i].tagName + "<br>";
+    }
+    // document.getElementById("tag").innerHTML = text;
+    document.write(text);
+
+    // -----------------------------------CSS Styles------------------------------------ //
+
+    // console.log(document.getElementById("myImage").src);
+    document.getElementById("myImage").src = "https://picsum.photos/700/300";
+    document.getElementById("myImage").style = "width:90%;margin-left:5%;";
+
+    // console.dir(document.getElementById("output").style);
+    document.getElementById("header").style = 
+    "background:linear-gradient(25deg,red,yellow,red);text-align:center;padding:1%;color:purple;font-weight:bold;font-size:200%;";
+
+    // document.getElementsByTagName("body").style.backgroundcolor = "red";
+    // document.body.style.background = "linear-gradient(180deg,red,orange)";
+    document.body.style = "margin:0;background:linear-gradient(180deg,red,orange);";
+
+
+    var button1 = document.getElementById("btn1");
+    button1.style.backgroundColor = "yellow";
+    button1.onclick = myfun;
+
+    function myfun(){
+        button1.style.backgroundColor = "red"; 
+    }
+
+    var img1 = document.getElementById("myImage");
+    var output = document.getElementById("output");
+    img1.onmouseover = myfun2;
+
+    function myfun2(){
+        img1.style = "width:100%;height:400px;";
+    }
+
+    img1.addEventListener("click",function(e){
+        console.log(e);
+        output.innerHTML = "CLICKED";
+    });
+
+    img1.addEventListener("click", myfun3);
+
+    function myfun3(){
+        img1.style = "border:5px solid black";
+        // output.innerHTML = "CLICKED 2";  
+    }
+
+
+    document.getElementById("btn1").addEventListener("click", click1);
+
+    function click1(){
+        var newel = document.createElement("h1");
+        var neweldata = document.createTextNode("New H1 Tag Created"); 
+        newel.appendChild(neweldata);
+        output.appendChild(newel);
+    }
+
+</script>
+</html>

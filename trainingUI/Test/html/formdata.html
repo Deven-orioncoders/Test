@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body id="formbody">
+    <h1 style="text-align: center;">Enter Your Data Here:-</h1>
+    <div id="formdiv">
+        <form action="test.html" method="get">
+            <span>
+            <label for="Name">Name:</label><br>
+            <input type="text" name="yourname" placeholder="Enter Your Name" required><br>
+            <label for="Email">Email:</label><br>
+            <input type="email" name="youremail"><br>
+            <label for="Age">Age:</label><br>
+            <input type="number" name="yourage"><br>
+            <label for="mobile">Phone:</label><br>
+            <input type="number" name="yournumber"><br>
+            </span>
+            <label for="Address">Address:</label><br>
+            <textarea name="add" cols="40" rows="5">Enter Address</textarea>
+            <br>
+            Upload Your Resume:
+            <input type="file" name="yourfile">
+            <br>
+            <label for="lang">Learning Languages:</label>
+            <input type="checkbox" name="language1" value="html">HTML
+            <input type="checkbox" name="language2" value="css">CSS
+            <input type="checkbox" name="language3"value="js">JAVASCRIPT
+            <br>
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gen" value="Male" checked>Male
+            <input type="radio" name="gen" value="Female">Female
+            <br>
+            Choose your Favourite Color:
+            <input type="color" name="yourcolor">
+            <br>
+            Birthdate:
+            <input type="date" name="yourbirthdate">
+            <br>
+            Select your transport:
+            <select name="Tansport" id="">
+                <option value="ride1">Bike</option>
+                <option value="ride2">Car</option>
+            </select>
+            <br>
+            <input type="Submit" value="Submit" style="width: 100px;">
+            <a href="mytest.html">Back</a>
+            <!-- <input type="button" value="Back" onclick=""> -->
+        </form>
+    </div>
+</body>
+</html>
