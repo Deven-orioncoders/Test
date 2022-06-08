@@ -1,0 +1,226 @@
+body{
+    margin: 0;
+}
+
+.firstLetter::first-letter{
+    font-size: 150%;
+}
+ 
+/*--------------------For Header--------------------*/
+header{
+    width:100%;
+    height: 50px;
+    background:url("../images/bg.gif") no-repeat;
+    background-size: 100% 50px;
+    border-bottom: 5px solid rgba(209, 210, 203, 255);
+    padding-bottom: 4px;
+}
+
+.mainheaderdiv{
+    height: inherit;
+    display: flex;
+    justify-content: right;
+}
+
+.subheaderdiv{
+    float: right;
+    height: inherit;
+    display: flex;
+}
+
+.firstcontainer{
+    width: 141px;
+    height: 50px;
+    background:url("../images/nav.jpg");
+    background-position: 0px 0px;
+} 
+.firstcontainer:hover{
+    background-position: 0px 50px;
+    cursor: pointer;
+}
+
+.secondcontainer{
+    width: 141px;
+    height: 50px;
+    background: url(../images/nav.jpg);
+    background-position: -143px 0px;
+}
+.secondcontainer:hover{
+    background-position: -143px 50px;
+    cursor: pointer;
+}
+
+.thirdcontainer{
+    width: 150px;
+    height: 50px;
+    background: url(../images/nav.jpg);
+    background-position: 313px 0;
+}
+
+.thirdcontainer:hover{
+    background-position: 313px 50px;
+    cursor: pointer;
+}
+
+.forthcontainer{
+    width: 141px;
+    height: 50px;
+    background: url(../images/nav.jpg);
+    background-position: 163px 0;
+}
+
+.forthcontainer:hover{
+    background-position: 163px 50px;
+    cursor: pointer;
+}
+
+/*--------------------For New body(container)--------------------*/
+.container{
+    margin: 0 10%;
+}
+
+/*--------------------For Navbar--------------------*/
+#navbar{
+    margin: 0;
+    border-bottom: 2px solid rgb(232, 233, 222);
+}
+
+#navlinks{
+    margin:20px 5px 20px 5px;
+    position: relative;
+}
+
+#rightnav{
+    float: right;
+    
+}
+.navdiv1{
+    margin-right: 50px;
+    display: inline;
+}
+.navdiv2{
+    margin-left: 50px;
+    margin-right: 0px;
+    display: inline;
+}
+#navlinks div a{
+    text-align: left;
+    color: rgb(70, 58, 64);
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* --------------------For Ning Logo-------------------- */
+.ninglogo{
+    margin-left: -35px;
+    height: 70px;
+}
+.ninglogo img{
+    width: 20%;
+    height: 100%;
+    object-fit: fill;
+}
+
+/*--------------------For Image Text--------------------*/
+#imgtxt{
+    width:100%;
+    height:200px;
+    background: rgb(232, 233, 222) url("../images/bg-introduction-full.gif") no-repeat right bottom;
+    position: relative;
+}
+.imgtxtpara{
+    margin: 10px 10px 10px -5px;
+    width: inherit;
+    font-size: 250%;
+    padding:15px 0 25px 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(70, 58, 64);
+}
+
+.txt1{
+    color:rgba(171, 81, 16, 0.984);   
+}
+
+.txt2{
+    color: rgb(181, 60, 36);
+}
+
+#imgtxt h5{
+    position:absolute;
+    bottom:0;
+    /* margin-left: 91%; */
+    right:30px;
+}
+
+/*--------------------For Paragraph--------------------*/
+#mainparadiv{    
+    height: 200px;
+    margin:30px 0;
+}
+
+#para1{
+    width: 49%;
+    margin-left: 10px;
+    float: left;
+}
+
+#para1 h1{
+    font-size: 125%;
+    color:rgb(70, 58, 64);
+}
+
+#innerpara1{
+    
+    /* font-family:Georgia, 'Times New Roman', Times, serif; */
+    color:rgb(70, 58, 64);
+}
+
+#para2{
+    width: 49%;
+    top: 0;
+    float: right;
+}
+
+#para2 h2{
+    margin-top: 6.92px;
+    margin-left: 20px;
+}
+
+#para2 ul li{
+    list-style: none;
+    font-style: italic;
+    list-style: url("../images/bullet.gif");  
+}
+
+/*--------------------For Clients--------------------*/
+#clientheader h1{
+    margin:15px;
+    color:rgba(171, 81, 16, 0.984); 
+}
+#clientimg{
+    position: relative;
+}
+
+.logo{
+    margin: 5px 2%;
+    display: inline;
+}
+.logo img{
+    width: 20%;
+    border: 2px solid rgb(239, 239, 237);
+}
+
+/*--------------------For Footer--------------------*/
+#myfooter{
+    margin-top: 20px;
+    border-top: 2px solid rgb(239, 239, 237);
+}
+
+#myfooter div{
+    padding: 15px;
+}
+
+#myfooter div a{
+    margin:0 2%;
+    color: rgba(171, 81, 16, 0.984);
+}
